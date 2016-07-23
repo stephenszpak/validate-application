@@ -1,0 +1,61 @@
+<!doctype HTML>
+
+<html>
+	<title>Loan Application</title>
+<body>
+	<h1>Loan Application</h1>
+	
+
+	<link rel="stylesheet" type="text/css" href="validation.css">
+
+<form>
+	<h2>Applicant Information</h2>
+  	First name:<br>
+ 	<input type="text" name="firstname"><br>
+ 	Middle Initial:<br>
+ 	<input type="text" name="M.I."><br>
+	Last name:<br>
+  	<input type="text" name="lastname"><br>
+  	Address:<br>
+  	<input type="text" name="address"><br>
+  	Occupation:<br>
+  	<input type="text" name="occupation"><br>
+  	Employer:<br>
+  	<input type="text" name="employer"><br>
+  	Employer address:<br>
+  	<input type="text" name="employeraddress">
+</form>
+<form>
+	<h2>Type of Loan</h2>
+		<input type="radio" name="commercial" value="com">Commercial<br>
+		<input type="radio" name="realestate" value="realestate">Real Estate<br>
+		<input type="radio" name="personal" value="pers">Personal<br>
+		<input type="radio" name="mortgage" value="mortgage">Mortgage
+</form>
+<form>
+	<h2>Loan Length</h2>
+  		<input type="radio" name="loanlength" value="5" checked> 5 years<br>
+ 		<input type="radio" name="loanlength" value="10"> 10 years<br>
+ 		<input type="radio" name="loanlength" value="15"> 15 years
+</form>
+<form>
+	<h2>Additional Information</h2>
+		<input type="checkbox" name="downpayment" value="downpayment">I have a down payment<br>
+		<input type="checkbox" name="oosres" value="oosres">Out-of-State Resident<br>
+		<input type="checkbox" name="married" value="married">Married<br>
+		<input type="checkbox" name="loancosign" value="loancosign">Loan will be co-signed
+</form>
+<form>
+	<h2>Questions or Comments</h2>
+		<input type="<textarea name="comments">
+</form>
+
+<form>
+	<h2>E-Mail, Phone, linkedIN</h2>
+		<label>E-Mail:</label>
+ 			 <input type="email" required/>
+		<div>Phone:<input type="text" name="phone"></div>
+		<div>LinkedIN:<input type="text" name="linkedin"></div>
+</form>
+</body>
+</html>
